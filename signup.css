@@ -9,11 +9,13 @@ body{
      background-image: url(OIP.jpg);
      background-size: cover;
      font-family: 'Ubuntu Mono', monospace;
+     height: 100%;
+     
 
 }
 .sign-up-form{
     width: 400px;
-    
+    height: 100%;
     margin:40px auto 0 ;
     padding: 0 10px 10px 20px;
     box-shadow: 1px 1px 2px 1px;
