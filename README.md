@@ -8,3 +8,4 @@ Group: 12
                 -INGABIRE Josephine 23378
                 -NDIKUMWENYO Josue 22700
                 -UMUBYEYI Anitha 23019
+                -MUNEZERO Henriette 23141
