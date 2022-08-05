@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
      background-image: url(OIP.jpg);
      background-size: cover;
-     font-family: 'Gill Sans';
+     font-family: 'Ubuntu Mono', monospace;
 
 }
 .sign-up-form{
-    width: 350px;
-    margin: 30px auto 0;
+    width: 400px;
+    
+    margin:40px auto 0 ;
+    padding: 0 10px 10px 20px;
     box-shadow: 1px 1px 2px 1px;
     text-align: center;
     background-color:whitesmoke;
@@ -20,17 +29,23 @@ body{
 
 }
 .input-txt{
-    width: 170px;
-    margin: 5px;
-    padding: 5px;
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+   margin-right: 60px;
+    padding-left: 10px;
     border-radius: 15px;
-    border-color: black;
-    text-align: center;
+    border-color: snow;
+    
     
 }
 .submit-btn{
+    color: #ffff;
     width: 200px;
     padding: 5px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 20px;
     background-color: blueviolet;
     text-align: center;
     border-radius: 15px;
@@ -39,10 +54,13 @@ body{
     ;
 }
 .google-btn{
+    color: #ffff;
     width: 200px;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 20px;
     padding: 5px;
-    background-color: blueviolet;
+    background-color:blueviolet;
     text-align: center;
     border-radius: 15px;
     border: grey
@@ -51,23 +69,76 @@ body{
 }
 
 hr{
-    width: 300px;
+    width: 270px;
+    margin: auto;
     margin-top: 10px;
 }
 .or{
     width: 50px;
-    margin: -20px auto 0;
+    margin: -10px auto 0;
     background-color: whitesmoke;
 }
 a{
     text-decoration: none;
 }
 
+.label{
+    
+    width: 80px;
+}
+
 label{
-    margin-left: 20px;
+   
+    display: block;
+    
+    ;
+    text-align: start;
+   
+    
 }
 img{
     width: 50px;
     margin: -20px auto 0;
     border-radius: 60px;
+}
+.gologin{
+    margin: 10px;
+}
+#check{
+
+    display: block;
+    width: 200%; 
+    
+    position: relative;
+    left: 115px;
+    
+   
+}
+
+#check td{
+ display: flex;
+ align-items: center;
+
+ width: 100%;
+}
+#check input{
+    display: inline-block;
+    
+}
+
+
+
+#check p{
+    display: block;
+   
+    margin-left: 3px;
+    
+    
+
+    
+}
+table{
+    width: 100%;
+    margin-left: 20px;
+    
 }
