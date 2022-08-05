@@ -8,9 +8,11 @@
 body{
      background-image: url(OIP.jpg);
      background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
      font-family: 'Ubuntu Mono', monospace;
      height: 100%;
-     
+
 
 }
 .sign-up-form{
