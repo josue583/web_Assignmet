@@ -1,0 +1,73 @@
+body{
+     background-image: url(OIP.jpg);
+     background-size: cover;
+     font-family: 'Gill Sans';
+
+}
+.sign-up-form{
+    width: 350px;
+    margin: 30px auto 0;
+    box-shadow: 1px 1px 2px 1px;
+    text-align: center;
+    background-color:whitesmoke;
+    position: relative;
+}
+.sign-up-form h1{
+    color: blueviolet;
+    text-align: center;
+    margin: -5px auto 10px;
+    padding: 5px;position: relative;
+
+}
+.input-txt{
+    width: 170px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: black;
+    text-align: center;
+    
+}
+.submit-btn{
+    width: 200px;
+    padding: 5px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 15px;
+    border: grey
+    
+    ;
+}
+.google-btn{
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 15px;
+    border: grey
+    
+    ;
+}
+
+hr{
+    width: 300px;
+    margin-top: 10px;
+}
+.or{
+    width: 50px;
+    margin: -20px auto 0;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+
+label{
+    margin-left: 20px;
+}
+img{
+    width: 50px;
+    margin: -20px auto 0;
+    border-radius: 60px;
+}
